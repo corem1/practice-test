@@ -2,6 +2,7 @@
   box-sizing: border-box;
   font-family: "Helvetica";
 
+
 }
 
 h1 {
@@ -24,8 +25,8 @@ font: bold;
 float: right;
 width: 40%;
 text-align: center;
-height:25px;
-font-size: 110%;
+height:auto;
+font-size: 120%;
 
 }
 
@@ -37,7 +38,7 @@ div {
 }
 
 .row {
-  width: 100%;
+  width: 95%;
 }
 
 #b1 {
@@ -56,6 +57,7 @@ div {
   background-color: #CC45D7;
   color: white;
   font-style: bold;
+
 }
 /****** Large Devices **********/
 @media (min-width: 992px) {
