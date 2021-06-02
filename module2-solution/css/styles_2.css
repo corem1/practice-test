@@ -1,19 +1,21 @@
 * {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Helvetica";
 
 }
 
 h1 {
   margin-bottom: 15px;
   text-align: center;
+  font-family: "Monaco"
 }
 
 p {
   width: 90%;
-  height: 200px;
+  height: auto;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: 10px;
+
 }
 
 p1 {
@@ -22,21 +24,39 @@ font: bold;
 float: right;
 width: 40%;
 text-align: center;
-height:20px
+height:25px;
+font-size: 110%;
+
 }
 
 div {
 
   margin-top: 10px;
   margin-left: 20px;
+  background-color: #C3D3E1;
 }
 
 .row {
   width: 100%;
 }
 
+#b1 {
+  background-color: #339CFF;
+  color: white;
+  font-style: bold;
+}
 
+#b2 {
+  background-color: #45D7A0;
+  color: black;
+  font-style: bold;
+}
 
+#b3 {
+  background-color: #CC45D7;
+  color: white;
+  font-style: bold;
+}
 /****** Large Devices **********/
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7,
