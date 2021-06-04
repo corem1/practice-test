@@ -28,17 +28,18 @@ text-align: center;
 height:auto;
 font-size: 120%;
 
+
 }
 
 div {
 
   margin-top: 10px;
-  margin-left: 20px;
   background-color: #C3D3E1;
+
 }
 
 .row {
-  width: 95%;
+  width: 90%;
 }
 
 #b1 {
@@ -66,6 +67,7 @@ div {
   {
     float: left;
     border: 1px solid black;
+    margin-left: 6px;
 
   }
 .col-lg-1 {
@@ -78,7 +80,7 @@ div {
   width: 25%;
 }
 .col-lg-4 {
-  width: 33%;
+  width: 32%;
 }
 .col-lg-5 {
   width: 41.66%;
@@ -113,7 +115,7 @@ div {
   {
     float: left;
     border: 1px solid black;
-
+    margin-left: 6px;
   }
 .col-md-1 {
   width: 8.33%;
@@ -131,7 +133,7 @@ div {
   width: 41.66%;
 }
 .col-md-6 {
-  width: 50%;
+  width: 49%;
 }
 .col-md-7 {
   width: 58.33%;
@@ -149,7 +151,7 @@ div {
   width: 91.66%;
 }
 .col-md-12 {
-  width: 100%;
+  width: 99%;
 }
 }
 
